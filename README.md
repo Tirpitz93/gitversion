@@ -38,7 +38,7 @@ To install the tool:
 
 To install this version:
 
-    pip install git-version  @ https://github.com/Tirpitz93/gitversion##subdirectory=src
+    python -m pip install "git-version @ git+https://github.com/Tirpitz93/gitversion#subdirectory=src"
 
 To generate a version.h file containing C++ version information for the git repository located in myrepositorydir:
 
